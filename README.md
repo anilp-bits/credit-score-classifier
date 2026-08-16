@@ -65,4 +65,5 @@ https://github.com/anilp-bits/credit-score-classifier
 | **Decision Tree** | Learns relationships clearly but can easily overfit if not controlled properly |
 | **KNN** | Works based on similarity between data points but becomes slow with larger datasets |
 | **Naive Bayes** | Runs very fast but may miss important relationships because of its simple assumptions |
-| **Random Forest** | Produces the most reliable results by combining multiple models and reducing overfitting |
+| **Random Forest(Ensemble)** | Produces the most reliable results by combining multiple models and reducing overfitting |
+| **Overall Winner for your dataset** | Random Forest proved to be the most effective model for this dataset, as it consistently delivered higher accuracy and more reliable predictions compared to the other algorithms |
