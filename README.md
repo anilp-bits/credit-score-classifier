@@ -43,3 +43,15 @@ Follow the steps below from the project folder to install the required libraries
 
 8. To stop the app, press Ctrl + C in the terminal.
 
+## GitHub Repository ##
+https://github.com/anilp-bits/credit-score-classifier
+
+## Model Evaluation and Comparison Table ##
+
+| Model | Accuracy | Precision | Recall | F1 | MCC | AUC |
+|---|---:|---:|---:|---:|---:|---:|
+| **Logistic Regression** | 0.6012 | 0.5988 | 0.6012 | 0.5821 | 0.2931 | 0.7606 |
+| **Decision Tree** | 0.7040 | 0.7080 | 0.7040 | 0.7047 | 0.5095 | 0.8513 |
+| **KNN** | 0.6269 | 0.6278 | 0.6269 | 0.6257 | 0.3737 | 0.7733 |
+| **Naive Bayes** | 0.5710 | 0.6240 | 0.5710 | 0.5745 | 0.3688 | 0.7455 |
+| **Random Forest** | 0.7904 | 0.7902 | 0.7904 | 0.7902 | 0.6514 | 0.9124 |
