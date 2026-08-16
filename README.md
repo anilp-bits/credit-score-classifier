@@ -43,5 +43,3 @@ Follow the steps below from the project folder to install the required libraries
 
 8. To stop the app, press Ctrl + C in the terminal.
 
-> Note: Make sure you are running the commands from the same folder that contains app.py and the model directory.
-
