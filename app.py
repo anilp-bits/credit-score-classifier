@@ -15,6 +15,14 @@ st.set_page_config(
     layout="wide"
 )
 
+st.markdown("""
+<style>
+.stApp {
+    background-color: #EEF3F8;
+}
+</style>
+""", unsafe_allow_html=True)
+
 
 st.title("💳 Credit Score Classification")
 
