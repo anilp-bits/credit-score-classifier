@@ -48,10 +48,21 @@ https://github.com/anilp-bits/credit-score-classifier
 
 ## Model Evaluation and Comparison Table ##
 
-| Model | Accuracy | Precision | Recall | F1 | MCC | AUC |
+| ML Model Name | Accuracy | Precision | Recall | F1 | MCC | AUC |
 |---|---:|---:|---:|---:|---:|---:|
 | **Logistic Regression** | 0.6012 | 0.5988 | 0.6012 | 0.5821 | 0.2931 | 0.7606 |
 | **Decision Tree** | 0.7040 | 0.7080 | 0.7040 | 0.7047 | 0.5095 | 0.8513 |
 | **KNN** | 0.6269 | 0.6278 | 0.6269 | 0.6257 | 0.3737 | 0.7733 |
 | **Naive Bayes** | 0.5710 | 0.6240 | 0.5710 | 0.5745 | 0.3688 | 0.7455 |
 | **Random Forest** | 0.7904 | 0.7902 | 0.7904 | 0.7902 | 0.6514 | 0.9124 |
+
+
+## Performance of Each Model on the Dataset ##
+
+| ML Model Name | Observation about model performance  |
+|---|---:|
+| **Logistic Regression** | Provides steady results but doesn’t handle complex patterns in the data very well |
+| **Decision Tree** | Learns relationships clearly but can easily overfit if not controlled properly |
+| **KNN** | Works based on similarity between data points but becomes slow with larger datasets |
+| **Naive Bayes** | Runs very fast but may miss important relationships because of its simple assumptions |
+| **Random Forest** | Produces the most reliable results by combining multiple models and reducing overfitting |
