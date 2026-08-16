@@ -10,16 +10,17 @@ from sklearn.metrics import confusion_matrix, classification_report
 
 
 st.set_page_config(
-    page_title="Credit Risk Assessment Tool",
+    page_title="Credit Score Assessment Tool",
     page_icon="💳",
     layout="wide"
 )
 
 
-st.title("💳 Credit Score Classification Dashboard")
+st.title("💳 Credit Score Classification")
 
 st.write(
-    "Upload your dataset, select a model and generate credit score predictions."
+    "This application allows users to upload customer data and "
+    "predict credit score categories using different trained models."
 )
 
 
