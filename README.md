@@ -59,8 +59,8 @@ https://github.com/anilp-bits/credit-score-classifier
 
 ## Performance of Each Model on the Dataset ##
 
-| ML Model Name | Observation about model performance  |
-|---|---:|
+| ML Model Name | Observation about model performance |
+|:---|:---:|
 | **Logistic Regression** | Provides steady results but doesn’t handle complex patterns in the data very well |
 | **Decision Tree** | Learns relationships clearly but can easily overfit if not controlled properly |
 | **KNN** | Works based on similarity between data points but becomes slow with larger datasets |
